@@ -1,0 +1,340 @@
+/*start nav media*/
+@media (max-width:1150px){
+    .nav{
+        padding: 0px 0;
+    }
+    .nav .sellImage{
+        width: 110px;
+        height: 30px;
+    }
+    .nav .links{
+        display: none;
+    }
+    .nav .menu{
+        display: flex;
+    }
+    .nav .linkWithMenu{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 60px;
+        background: #FFF;
+        padding: 0;
+    }
+    .nav .linkWithMenu>ul>li{
+        display: block;
+    }
+    .nav .linkWithMenu li{padding:15px 25px;}
+    .nav .linkWithMenu li:not(:last-of-type){
+        border-bottom: 1px solid rgb(163, 163, 163);
+    }
+    .nav .linkWithMenu>ul>li>a{
+        display: block;
+        overflow: auto;
+    }
+    .nav .linkWithMenu>ul>li>a i{
+        float: right;
+    }
+
+    .nav .linkWithMenu>ul>li ul{display: none;}
+}
+
+@media (min-width:1151px){
+    .nav .linkWithMenu{
+        display: none !important;
+    }
+}
+/*end nav media*/
+
+
+/* start home media */
+@media (max-width:1150px){
+    .home{
+        flex-direction: column-reverse;
+    }
+    .home div{
+        width: 80%;
+    }
+    .home div.Start{
+        min-height: 45vh !important;
+        padding:25px 0 0 0;
+    }
+    .home div.Start h2{
+        font-size: 40px;
+        margin-top:0
+    }
+    .home div.Start p{
+        margin: 25px 0;
+        font-size: 20px;
+        color: #2E2F2C;
+    }
+    .home div.backbroundHome{
+        min-height: 70vh !important;
+    }
+}
+/* end home media */
+
+
+
+/* start integ media */
+@media (max-width:767px){
+    .integ .allIntegrations div{
+        width: 48%;
+    }
+    .integ h2{
+        font-size: 30px;
+    }
+}
+
+@media (min-width:768px) and (max-width:998px){
+    .integ .allIntegrations div{
+        width: 30%;
+    }
+}
+/* end integ media */
+
+
+/* start stats media */
+@media (max-width:1099px){
+    .stats .graphs div{
+        width: 80%;
+    }
+    .stats .graphs{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* end stats media */
+
+
+
+/* start rating media */
+@media (max-width:767px){
+    .rate .ratingOfIntes>div{
+        width: 48%;
+    }
+    .rate h2{
+        font-size: 30px;
+    }
+}
+
+@media (min-width:768px) and (max-width:998px){
+    .rate .ratingOfIntes>div{
+        width: 30%;
+    }
+}
+/* end rating media */
+
+/* start what you need to run  */
+@media (max-width:767px){
+    .needToRun .subContainer{
+        min-height: 750px !important;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .needToRun .infoText h2{
+        font-size: 35px;
+    }
+    .needToRun .subContainer>div{
+        width: 100%;
+    }
+    .needToRun .infoText{
+        padding-top: 0;
+        margin-bottom: 25px;
+    }
+}
+@media (min-width:768px) and (max-width:998px){
+    .needToRun .subContainer{
+        height: 550px;
+    }
+    .needToRun .infoText h2{
+        font-size: 30px;
+    }
+    .needToRun .infoText p{
+        font-size: 14px;
+    }
+}
+/* end what you need to run  */
+
+
+/* start inventoryList media */
+@media (max-width:767px){
+    .inventoryList{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inventoryList div{
+        width: 100% !important;
+        min-height: 300px;
+    }
+    .inventoryList .des{
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .inventoryList .cardS{
+        margin-bottom: 50px;
+    }
+}
+@media (min-width:500px) and (max-width:599px){
+    .inventoryList .cardS img{
+        width:180px;
+    }
+    .inventoryList .cardS{
+        height: 400px;
+    }
+}
+@media (min-width:600px) and (max-width:699px){
+    .inventoryList .cardS img{
+        width:210px;
+    }
+    .inventoryList .cardS{
+        min-height: 450px;
+    }
+}
+@media (min-width:700px) and (max-width:767px){
+    .inventoryList .cardS img{
+        width:230px;
+    }
+    .inventoryList .cardS{
+        min-height: 500px;
+    }
+}
+
+@media (min-width:768px) and (max-width:998px){
+    .inventoryList .cardS{
+        max-height: 400px;
+    }
+    .inventoryList .cardS img{ 
+        width:180px;
+    }
+    .inventoryList .des{
+        padding:0 30px;
+        padding-top: 60px;
+    }
+    .inventoryList .des h3{
+        font-size: 30px;
+    }
+}
+/* end inventoryList media */
+
+
+/* start sync media */
+@media (max-width:767px){
+    .sync .subContainer{
+        flex-direction: column-reverse;
+    }
+    .sync .cameras{
+        margin-bottom: 40px;
+    }
+    .sync .subContainer>div{
+        width: 100% ;
+    }
+    .sync .cameras div{
+        width: 140px;
+        height: 120px;
+    }
+    .sync .cameras div img:last-of-type{
+        width: 45px;
+        height: 45px;
+    }
+}
+@media (min-width:768px) and (max-width:1100px){
+    .sync .infoSynoc{
+        width: 40%;
+    }
+    .sync .infoSynoc h2{
+        color: #2e2f2c;
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+    .sync .cameras div{
+        width: 120px;
+        height: 100px;
+    }
+}
+/* end sync media */
+
+
+/* start postage media */
+@media (max-width:767px){
+    .printPostage .subContainer{
+        flex-direction: column;
+    }
+    .printPostage .subContainer>div{
+        width: 100% ;
+    }
+    .printPostage .lap{
+        height: 200px;
+        margin-bottom: 50px;
+    }
+    .printPostage .lap div img:last-of-type{
+        bottom: 30px;
+        height: 60%;
+    }
+}
+/* end postage media */
+
+
+/* start  unlimitedAccess media*/
+@media (max-width:767px){
+    .unlimitedAccess{
+        height: 300px;
+    }
+    .unlimitedAccess h3{
+        font-size: 35px;
+        letter-spacing: -2px;
+    }
+    .unlimitedAccess p{
+        font-size: 18px;
+    }
+    .unlimitedAccess button{
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:998px){
+    .unlimitedAccess{
+        height: 350px;
+    }
+    .unlimitedAccess h3{
+        font-size: 55px;
+        letter-spacing: -3.5px;
+    }
+    .unlimitedAccess p{
+        font-size: 20px;
+    }
+    .unlimitedAccess button{
+        font-size: 20px;
+        padding: 15px 25px;
+    }
+}
+/* end  unlimitedAccess media*/
+
+
+/* start footer media */
+@media (max-width:767px){
+    .footer .subContainer>div:first-of-type{
+        font-size: 12px;
+    }
+    .footer i{
+        font-size: 16px;
+        margin-left:5px ;
+    }
+}
+/* end footer media */
+
+
+/* start topIcon media */
+@media (max-width:767px){
+.topIcon{
+    width: 45px;
+    height: 45px;
+}
+.topIcon i{
+    font-size: 22px;
+}
+}
+/* end topIcon media */
